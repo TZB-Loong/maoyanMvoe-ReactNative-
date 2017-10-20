@@ -1,0 +1,51 @@
+1、电影列表： http://m.maoyan.com/movie/list.json?type=hot&offset=0&limit=1000
+2、电影详情： http://m.maoyan.com/movie/电影id.json 
+3、影院列表：	http://m.maoyan.com/cinemas.json
+
+
+
+抓包：
+
+1、正在热映 ： http://api.maoyan.com/mmdb/movie/v3/list/hot.json
+2、相关话题：http://api.maoyan.com/sns/movie/247259/v2/hotTopics.json
+3、长影评： http://api.maoyan.com/sns/movie/247259/filmReview/top.json
+4、相关资讯(新闻) ： http://api.maoyan.com/sns/news/v3/type/0/target/247259/top.json
+5、专业评论 ： http://api.maoyan.com/mmdb/comments/pro/movie/341655.json
+6、短评 ： http://api.maoyan.com/mmdb/comments/movie/v2/341655.json
+7、演员 ： http://api.maoyan.com/mmdb/v6/movie/341655/celebrities.json
+8、电影详情 ： http://api.maoyan.com/mmdb/movie/v5/341655.json
+9、相关电影 ： http://api.maoyan.com/mmdb/movie/341655/feature/relatedFilm.json
+http://ads.wepiao.com/advertisement/adlist
+
+
+美团API：
+
+一、首页：
+
+1.名店抢购、折扣美食
+http://aop.meituan.com/api/entry/topic2?uuid=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&utm_source=AppStore&utm_term=7.4.0&latlng=22.658886%2C114.038819&rn_package_version=0&userid=207705088&utm_content=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&utm_medium=iphone&version_name=7.4.0&movieBundleVersion=100&utm_campaign=AgroupBgroupD100H0&__reqTraceID=845EDE56-BBC2-4D0B-A33D-8969A5C28ECE&js_patch_version=2&ci=30&msid=76EC06AA-D076-4229-A3B2-4627B12F95BB2016-10-21-18-47424
+
+2.人气外卖、...
+http://aop.meituan.com/api/entry/discountNew?uuid=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&utm_source=AppStore&utm_term=7.4.0&latlng=22.658886%2C114.038819&rn_package_version=0&userid=207705088&utm_content=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&utm_medium=iphone&version_name=7.4.0&movieBundleVersion=100&utm_campaign=AgroupBgroupD100H0&__reqTraceID=33F8EAE5-287C-4757-A905-EFF85DF93071&js_patch_version=2&ci=30&msid=76EC06AA-D076-4229-A3B2-4627B12F95BB2016-10-21-18-47424
+
+3.猜你喜欢列表
+
+http://api.meituan.com/group/v2/recommend/homepage/city/30?msid=76EC06AA-D076-4229-A3B2-4627B12F95BB2016-10-21-18-47424&userid=207705088&__vhost=api.mobile.meituan.com&position=22.658886%2C114.038819&movieBundleVersion=100&utm_term=7.4.0&limit=40&wifi-mac=d4%3Aee%3A07%3A01%3A3c%3A98&ci=30&__skcy=2IoKHuPXQiBmt0Oz3UDDgIyij20%3D&__skck=3c0cf64e4b039997339ed8fec4cddf05&__skua=d64d6feffae1ef2e9dbbe402605681c1&wifi-name=HiWiFi_zningning&client=iphone&uuid=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&__skts=1477047109.656306&__skno=864E8F69-9C54-48DE-B871-A50C847F1E55&utm_content=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&utm_source=AppStore&utm_medium=iphone&version_name=7.4.0&wifi-cur=0&wifi-strength=&offset=0&supportId=1&__reqTraceID=F099390D-2405-4DA9-8134-752ADBEB1116&js_patch_version=2&rn_package_version=0&utm_campaign=AgroupBgroupD100H0&userId=207705088
+
+
+二、旅游：
+
+1、http://lvyou.meituan.com/volga/api/v2/trip/cate/menu/simple?msid=76EC06AA-D076-4229-A3B2-4627B12F95BB2016-10-21-18-47424&uuid=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&utm_source=AppStore&menuType=2&rn_package_version=0&utm_content=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&userid=207705088&utm_medium=iphone&utm_term=7.4.0&version=7.4.0&version_name=7.4.0&movieBundleVersion=100&utm_campaign=AgroupBgroupD100Ghomepage_category11_78__a1__c20070H0&__reqTraceID=11EBC4CF-181A-4DAB-9997-0917BB6CF2D2&js_patch_version=2&cityId=30&ci=30&client=iphone
+
+
+2.人气目的地：
+
+ http://lvyou.meituan.com/volga/api/v1/trip/country/onlyhotcity?uuid=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&configType=1&utm_source=AppStore&rn_package_version=0&utm_content=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&userid=207705088&utm_medium=iphone&lCityId=30&utm_term=7.4.0&version_name=7.4.0&movieBundleVersion=100&utm_campaign=AgroupBgroupD100Ghomepage_category11_78__a1__c20070H0&__reqTraceID=30A11738-FE97-4BA3-8A4B-4E60D76F2AD2&cateId=78&js_patch_version=2&ci=30&msid=76EC06AA-D076-4229-A3B2-4627B12F95BB2016-10-21-18-47424
+
+3. 国内游：
+
+http://lvyou.meituan.com/volga/api/v1/travel/deal/homepage/recommend/city/30?userid=207705088&movieBundleVersion=100&utm_term=7.4.0&fromCityId=70&limit=20&ci=30&sort=defaults&cateId=226&ste=_btrp4in&client=iphone&uuid=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&utm_content=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&utm_source=AppStore&utm_medium=iphone&fromCityName=%E9%95%BF%E6%B2%99&needRecommend=1&version_name=7.4.0&offset=0&__reqTraceID=8B61220E-6E66-45DC-A31B-A1072B2CC498&js_patch_version=2&rn_package_version=0&utm_campaign=AgroupBgroupD100Ghomepage_category11_78__a1__c20070H0&msid=76EC06AA-D076-4229-A3B2-4627B12F95BB2016-10-21-18-47424
+
+4. 爆款特卖
+
+http://lvyou.meituan.com/volga/api/v1/trip/home/hotsale/deal/city/70?uuid=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&utm_source=AppStore&utm_term=7.4.0&rn_package_version=0&ste=_btrp2bn&userid=207705088&utm_content=35907A2436D257F90370E49A7CDFAE73678ABD5806B0029DFB83362199EEDAE4&utm_medium=iphone&version_name=7.4.0&movieBundleVersion=100&utm_campaign=AgroupBgroupD100Ghomepage_category11_78__a1__c20070H0&__reqTraceID=668157AC-1F2B-4C19-9C3D-9DF9218FA75C&js_patch_version=2&ci=30&msid=76EC06AA-D076-4229-A3B2-4627B12F95BB2016-10-21-18-47424
